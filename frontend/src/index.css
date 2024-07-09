@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=KoHo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=KoHo&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=KoHo&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=KoHo&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Lora", "inter", "Poppins",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.getInTouch {
+  box-shadow: 11px 9px 12px 0px #ffbb6bad;
+  background: #ffbb6b;
+  border-radius: 35px;
+}
+
+.linerarBg {
+  background: linear-gradient(
+    145.89deg,
+    #30519478 -0.93%,
+    #ddc4a793 20.52%,
+    #d6a8745a 74.66%,
+    #2142844e 100%
+  );
+  box-shadow: 11px 9px 12px 0px #ffd5a584;
+
+  border-radius: 60px;
+  /* opacity: 20%; */
+  --tw-bg-opacity: 20%;
+}
+
+.glassbg {
+  background: linear-gradient(
+    145.89deg,
+    #21428449 -0.93%,
+    #ffba6b3f 20.52%,
+    #ffba6b30 74.66%,
+    #214284 100%
+  );
+  border: 2px solid #ffffff49;
+  border-radius: 60px;
+}
+.glassbg2 {
+  background: linear-gradient(
+    145.89deg,
+    #21428449 -0.93%,
+    #ffba6b3f 20.52%,
+    #ffba6b30 74.66%,
+    #2142844d 100%
+  );
+}
+.boxShadow {
+  box-shadow: 11px 9px 12px 0px #ffbb6bad;
+}
+.darkbg {
+  background: #ffbb6b4d;
+  border-bottom: 1px solid #ffbb6b;
+  border-radius: 47px;
+  padding: 10px 50px 10px 50px;
+}
+.circular-carousel-slider {
+  position: absolute;
+  left: 41%;
+  /* top: calc((100vh - 400px) / 2); */
+
+  transform: translate(-50%, -50%);
+  top: 350px;
+  transform-origin: 150px 2500px;
+}
+
+.profileGrad {
+  background: linear-gradient(
+    315deg,
+    #ff8e4f 0%,
+    #ff9153 0.01%,
+    #ffdf8b 92.19%
+  );
+}
+.dropdownShadow {
+  box-shadow: 11px 9px 12px 0px #ffbb6bad;
+}
