@@ -4,8 +4,8 @@
   "description": "A clone of the Freelancer platform.",
   "main": "index.js",
   "scripts": {
-    "install-server": "cd backend && npm install",
-    "start-server": "cd backend && nodemon index.js",
+    "prestart-server": "cd backend && npm install",
+    "start-server": "cd backend && npx nodemon index.js",
     "install-client": "cd frontend && npm install",
     "build-client": "cd frontend && npm run build",
     "start-client": "cd frontend && npm run start",
@@ -15,3 +15,4 @@
   "author": "Your Name",
   "license": "ISC"
 }
+

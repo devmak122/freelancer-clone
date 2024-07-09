@@ -1,14 +1,14 @@
 {
   "name": "inotebook-backend",
   "version": "1.0.0",
-  "description": "iNoteBook-Your notebook on cloud",
+  "description": "iNoteBook - Your notebook on the cloud.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
-    "build": "npm run build"
+    "prestart": "npm install",
+    "start": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
