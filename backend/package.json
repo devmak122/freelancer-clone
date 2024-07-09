@@ -1,14 +1,15 @@
 {
   "name": "inotebook-backend",
   "version": "1.0.0",
-  "description": "iNoteBook - Your notebook on the cloud.",
+  "description": "iNoteBook-Your notebook on cloud",
   "main": "index.js",
   "scripts": {
-    "prestart": "npm install",
-    "start": "npx nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "install-server": "npm install",
+    "start-server": "npx nodemon index.js"
   },
-  "author": "Your Name",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -18,8 +19,9 @@
     "express-validation": "^4.1.0",
     "express-validator": "^7.1.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.4.0",
-    "nodemon": "^3.1.4"
+    "mongoose": "^8.4.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
