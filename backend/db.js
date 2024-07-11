@@ -12,9 +12,9 @@ const connectToMongo = async () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-    console.log("Connected to MongoDB");
+    console.log("Connected to MongoDB Atlas");
   } catch (e) {
-    console.log("Failed to connect to MongoDB", e.message);
+    console.log("Failed to connect to MongoDB Atlas", e.message);
   }
 };
 
