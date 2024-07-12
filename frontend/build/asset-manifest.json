@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.f12adde9.css",
+    "main.js": "./static/js/main.c35aa6d9.js",
+    "static/js/453.97563d25.chunk.js": "./static/js/453.97563d25.chunk.js",
+    "static/media/bg.jpg": "./static/media/bg.35f22cabc9d8538e0720.jpg",
+    "static/media/loginImg.jpg": "./static/media/loginImg.1e0f27a0bcf5d985d1a8.jpg",
+    "static/media/bootstrap-icons.woff?": "./static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "./static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/woman.jpg": "./static/media/woman.19e4571fcf755a77aaa5.jpg",
+    "static/media/logowhite.svg": "./static/media/logowhite.fc217df83b81866cd3149ac647bdcaff.svg",
+    "static/media/logo.svg": "./static/media/logo.22fba31a9066f58503ddb176d0b1efd9.svg",
+    "static/media/ig.svg": "./static/media/ig.7788c33454010da47b6cdcf69ed725db.svg",
+    "static/media/yt.svg": "./static/media/yt.ac886cc7c322b31ec1abf80ce4a56f48.svg",
+    "static/media/tel.svg": "./static/media/tel.82d27302f2610575ce6c25b6e686f0fe.svg",
+    "static/media/fb.svg": "./static/media/fb.13c219962660cd4a7ae999964f0c02e9.svg",
+    "index.html": "./index.html",
+    "main.f12adde9.css.map": "./static/css/main.f12adde9.css.map",
+    "main.c35aa6d9.js.map": "./static/js/main.c35aa6d9.js.map",
+    "453.97563d25.chunk.js.map": "./static/js/453.97563d25.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f12adde9.css",
+    "static/js/main.c35aa6d9.js"
+  ]
+}
