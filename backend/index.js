@@ -22,3 +22,4 @@ app.use('/api/auth', require('./routes/auth'));
 app.listen(port, () => {
   console.log(`Clone listening at http://localhost:${port}`);
 });
+
