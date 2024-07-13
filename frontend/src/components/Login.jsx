@@ -7,9 +7,9 @@ const Login = (props) => {
   const [credentials, setCredentials] = useState({ email: "", password: "" });
   const [user, setUser] = useState(null); 
   let navigate = useNavigate();
-  // http://localhost:5000/api/auth/getuser
+
   const fetchUserData = async (token) => {
-    const response = await fetch("https://backend-freelancer-1ofu.onrender.com", {
+    const response = await fetch("http://localhost:5000/api/auth/getuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -19,10 +19,10 @@ const Login = (props) => {
     const userData = await response.json();
     setUser(userData); 
   };
-  // http://localhost:5000/api/auth/login
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://backend-freelancer-1ofu.onrender.com", {
+    const response = await fetch("http://localhost:5000/api/auth/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
