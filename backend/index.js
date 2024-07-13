@@ -10,9 +10,8 @@ connectToMongo();
 const app = express();
 const port = process.env.PORT || 8000;
 
-// Configure CORS to allow requests from your frontend
 app.use(cors({
-  origin: '*',  // Allow all origins for testing purposes
+  
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'auth-token'],
   credentials: true,
@@ -21,11 +20,6 @@ app.use(cors({
 app.use(express.json());
 
 app.use('/api/auth', require('./routes/auth'));
-
-// Basic Hello route
-app.get('/', (req, res) => {
-  res.send('Hello, world!');
-});
 
 app.use((req, res, next) => {
   res.status(404).json({ message: 'Endpoint not found' });
