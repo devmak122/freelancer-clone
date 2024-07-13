@@ -3,11 +3,11 @@ import Single from './Single';
 
 function Content() {
     return (
-        <div className="flex flex-col items-center ml-10 mb-20">
-            <div className="mb-9">
-                <h2 className="text-center font-bold text-4xl leading-tight">What's great about it?</h2>
+        <div className="flex flex-col items-center mx-4 md:mx-10 mb-10">
+            <div className="mb-6">
+                <h2 className="text-center font-bold text-3xl leading-tight">What's great about it?</h2>
             </div>
-            <div className="flex justify-evenly mx-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <Single
                     src="https://www.f-cdn.com/assets/main/en/assets/home/benefits/browse-portfolios-v2.svg"
                     title="Browse portfolios"
@@ -23,8 +23,6 @@ function Content() {
                     title="Live chat"
                     content="You can live chat with your freelancers to get constant updates on the progress of your work."
                 />
-            </div>
-            <div className="flex justify-evenly mx-12">
                 <Single
                     src="https://www.f-cdn.com/assets/main/en/assets/home/benefits/pay-v2.svg"
                     title="Pay for quality"

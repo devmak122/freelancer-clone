@@ -3,13 +3,13 @@ import Feature from './Feature';
 
 function Features() {
     return (
-        <div className="flex flex-col justify-center pt-6 mx-[30px]">
+        <div className="flex flex-col justify-center pt-6 px-4 md:px-10">
             <div className="text-center mb-6">
-                <h1 className="font-bold text-[50px] leading-[65px] mb-5">
+                <h1 className="font-bold text-3xl md:text-4xl leading-tight mb-5">
                     Need something done?
                 </h1>
             </div>
-            <div className="flex flex-col lg:flex-row justify-between p-5 mx-[50px] space-y-5 lg:space-y-0 lg:space-x-5">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <Feature
                     src="https://www.f-cdn.com/assets/main/en/assets/home/redesign/need-work-done/post-a-job-redesign.svg"
                     title="Post a job"

@@ -36,14 +36,14 @@ const Projects = () => {
     ];
 
     return (
-        <div className="bg-red-50 py-16  px-6">
-            <div className="max-w-7xl mx-auto  text-center mb-10">
+        <div className="bg-red-50 py-6 px-4 sm:px-6 md:px-8 lg:px-10">
+            <div className="max-w-7xl mx-auto text-center mb-10">
                 <h3 className="font-bold text-3xl leading-10 mb-7">
                     Crowd favorites <br />
                     Here are some of our most popular projects:
                 </h3>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2  p-10 lg:grid-cols-3 gap-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {projects.map((project, index) => (
                     <Project
                         key={index}
@@ -54,7 +54,7 @@ const Projects = () => {
                 ))}
             </div>
             <div className="text-center mt-10">
-                <button className="border border-gray-300 text-gray-700 py-4 px-6 rounded-lg font-bold hover:text-black hover:border-black hover:bg-gray-200 transition duration-300">
+                <button className="bg-gray-200 hover:bg-gray-300 text-gray-700 py-3 px-6 rounded-lg font-bold shadow-md transition duration-300">
                     See More
                 </button>
             </div>

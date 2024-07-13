@@ -3,13 +3,14 @@ import Data from './Data';
 
 function Portfolio() {
     return (
-        <div className="flex items-center    font-poppins content-center ml-12 p-6">
+        <div className="flex flex-col md:flex-row justify-center items-center font-poppins content-center mx-6 md:mx-12 p-6">
             <Data
                 src="https://www.f-cdn.com/assets/main/en/assets/home/api-enterprise/api_upsell.png"
                 title="FREELANCER API"
                 subtitle="43 million professionals on demand"
                 content="Why hire people when you can simply integrate our talented cloud workforce instead?"
                 btn="View Documentation"
+                reverse={false} // Ensure first Data component is not reversed
             />
             <Data
                 src="https://www.f-cdn.com/assets/main/en/assets/home/api-enterprise/enterprise_upsell.png"
@@ -17,9 +18,10 @@ function Portfolio() {
                 subtitle="Company budget? Get more done for less"
                 content="Use our workforce of 43 million to help your business achieve more."
                 btn="Contact Us"
+                reverse={true} // Reverse the second Data component
             />
         </div>
-    )
+    );
 }
 
 export default Portfolio;
