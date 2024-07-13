@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import logo from "../Images/logo.svg";
+import loginImg from "../Images/loginImg.jpg";
 
 const SignUp = () => {
   const [credentials, setCredentials] = useState({ name: "", email: "", password: "", cpassword: "" });
