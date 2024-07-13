@@ -13,17 +13,12 @@ const port = process.env.PORT || 8000;
 // Configure CORS to allow requests from your frontend
 app.use(cors({
   origin: 'https://freelancer-clone-lake.vercel.app',
-  methods: 'GET, POST, PUT, DELETE',
-  allowedHeaders: 'Content-Type, auth-token',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'auth-token'],
+  credentials: true,
 }));
 
 app.use(express.json());
-
-// Test middleware to log incoming requests
-app.use((req, res, next) => {
-  console.log(`${req.method} ${req.url}`);
-  next();
-});
 
 app.use('/api/auth', require('./routes/auth'));
 
