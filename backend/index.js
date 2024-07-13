@@ -12,11 +12,12 @@ const port = process.env.PORT || 8000;
 
 // Configure CORS to allow requests from your frontend
 app.use(cors({
-  origin: 'https://freelancer-clone-lake.vercel.app',
+  origin: '*',  // Allow all origins for testing purposes
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'auth-token'],
   credentials: true,
 }));
+
 
 app.use(express.json());
 
