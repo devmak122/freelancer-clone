@@ -9,9 +9,9 @@ const SignUp = (props) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         const { name, email, password } = credentials;
-
+        // http://localhost:5000/api/auth/createuser
         try {
-            const response = await fetch("http://localhost:5000/api/auth/createuser", {
+            const response = await fetch("https://backend-freelancer-1ofu.onrender.com", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
